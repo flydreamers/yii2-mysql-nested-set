@@ -1,0 +1,35 @@
+{
+    "name": "flydreamers/yii2-nested-set",
+    "description": "Nested set implementation for sql databases.",
+    "version": "1.0.0",
+    "keywords": [
+        "yii",
+        "flydreamers",
+        "sql",
+        "nested set"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastián Thierer",
+            "email": "sebas@flydreamers.com",
+            "homepage": "http://www.flydreamers.com"
+        },
+        {
+            "name": "Nicolás Savini",
+            "email": "nsavini@flydreamers.com",
+            "homepage": "http://www.flydreamers.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "2.0.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "flydreamers\\db\\": ""
+        }
+    }
+}
