@@ -30,6 +30,7 @@ class TranslateBehavior extends Behavior
         return [
             ActiveRecord::EVENT_AFTER_FIND => 'initTranslations', //Initialize the translations
             ActiveRecord::EVENT_AFTER_INSERT => 'saveTranslation', //Save the changes
+            ActiveRecord::EVENT_AFTER_UPDATE => 'saveTranslation', //Save the changes
             ActiveRecord::EVENT_AFTER_DELETE => 'deleteTranslations', //Delete translations
         ];
     }
